@@ -13,7 +13,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.clone.search.ui.SearchScreen
 import com.clone.search.ui.theme.SearchTheme
 
+
+/**
+ * Created by arwani on 09/31/23.
+ */
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
